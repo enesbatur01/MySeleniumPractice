@@ -35,9 +35,9 @@ public class ActionsDeneme {
         actions.click(signupElement).perform();
         WebElement nameElement= driver.findElement(By.xpath("//input[@data-qa='signup-name']"));
         actions.click(nameElement)
-                .sendKeys("Enes Çıtır")
+                .sendKeys("Enes Kıtır")
                 .sendKeys(Keys.TAB)
-                .sendKeys("esley.dang@free2ducks.com")
+                .sendKeys("omare.jonan@free2ducks.com")
                 .sendKeys(Keys.TAB)
                 .sendKeys(Keys.ENTER)
                 .perform();
