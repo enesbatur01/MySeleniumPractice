@@ -26,7 +26,7 @@ public class FacebookTest {
         driver.findElement(By.xpath("//button[@class='_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy']")).click();
         String actualData=driver.findElement(By.xpath("//div[@class='fsl fwb fcb']")).getText();
         String expectedData="Giriş Bilgileri Yanlış";
-        driver.close();
+
         Assert.assertEquals(expectedData,actualData);
     }
 

@@ -35,6 +35,7 @@ public class WebElementMethodlarıTest {
 
         //sonucu yazdır
         System.out.println(result.getText());
+        driver.close();
 
 
     }
