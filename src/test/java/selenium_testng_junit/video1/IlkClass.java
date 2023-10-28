@@ -1,4 +1,4 @@
-package video1;
+package selenium_testng_junit.video1;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

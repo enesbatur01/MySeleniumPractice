@@ -1,4 +1,4 @@
-package video10_softassertion;
+package selenium_testng_junit.video10_softassertion;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

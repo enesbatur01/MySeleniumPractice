@@ -1,4 +1,4 @@
-package video2_driverget_methodlari;
+package selenium_testng_junit.video2_driverget_methodlari;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

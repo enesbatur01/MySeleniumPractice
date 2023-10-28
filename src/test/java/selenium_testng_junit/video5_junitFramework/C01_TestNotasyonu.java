@@ -1,4 +1,4 @@
-package video5_junitFramework;
+package selenium_testng_junit.video5_junitFramework;
 
 import org.junit.Assert;
 import org.junit.Test;

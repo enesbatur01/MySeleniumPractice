@@ -1,4 +1,4 @@
-package video5_junitFramework;
+package selenium_testng_junit.video5_junitFramework;
 
 import org.junit.*;
 import org.openqa.selenium.By;
@@ -26,19 +26,14 @@ public class C01_Before_After_Notasyonları {
     }
 
     @Test
-    public void wp() {
-        driver.get("https://web.whatsapp.com/");
-    }
-
-    @Test
     public void name() throws InterruptedException {
         driver.get("https://web.whatsapp.com/");
         Thread.sleep(50000);
 
-        driver.findElement(By.xpath("//span[@title='isim gir']")).click();
+        driver.findElement(By.xpath("//span[@title='Büşram']")).click();
         for (int i = 0; i < 1001; i++) {
             WebElement messageBox=driver.findElement(By.xpath("(//p[@class='selectable-text copyable-text iq0m558w g0rxnol2'])[2]"));
-            messageBox.sendKeys("Seni çok seviyorum"+i);
+            messageBox.sendKeys("sev beni lann hemen "+i);
             driver.findElement(By.xpath("//span[@data-icon='send']")).click();
         }
 

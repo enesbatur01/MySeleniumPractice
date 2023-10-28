@@ -1,4 +1,4 @@
-package video8_actions;
+package selenium_testng_junit.video8_actions;
 
 import org.junit.Assert;
 import org.junit.Before;

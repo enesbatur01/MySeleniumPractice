@@ -1,4 +1,4 @@
-package video3_webelement;
+package selenium_testng_junit.video3_webelement;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

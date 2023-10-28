@@ -1,4 +1,4 @@
-package video9_TestNG;
+package selenium_testng_junit.video9_TestNG;
 
 import org.testng.annotations.*;
 

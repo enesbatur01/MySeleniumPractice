@@ -1,4 +1,4 @@
-package video4_webelement;
+package selenium_testng_junit.video4_webelement;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
