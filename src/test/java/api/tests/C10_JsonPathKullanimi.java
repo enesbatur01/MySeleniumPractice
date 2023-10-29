@@ -1,6 +1,6 @@
-package api_test;
+package api.tests;
 
-import io.restassured.path.json.JsonPath;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.testng.annotations.Test;

@@ -1,7 +1,6 @@
-package api_test;
+package api.tests;
 
 import io.restassured.response.Response;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
